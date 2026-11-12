@@ -5,7 +5,7 @@
 One row per lot: the laboratory's identity and purity results, the lab's accession number, and the links you need to check every row with the lab yourself.
 
 - **Data file:** [`lots-public.csv`](lots-public.csv) (UTF-8, comma-separated, one header row)
-- **Rows:** 17 lots, read from the pages at https://www.luvaminos.com/coa and the lab PDFs on 2026-11-01. The full certificate library is on that page
+- **Rows:** 27 lots, read from the pages at https://www.luvaminos.com/coa and the lab PDFs (latest rows on 2026-11-12). The full certificate library is on that page
 - **Laboratory:** Freedom Diagnostics Testing, PLLC, Franklin, Tennessee. The lab is not owned by or affiliated with Luvaminos.
 - **Licence:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reuse it, including commercially, with attribution: "Luvaminos lot test results, https://github.com/luvaminos/lot-test-results".
 
