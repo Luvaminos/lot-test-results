@@ -1,3 +1,14 @@
+<!--
+DRAFT, NOT PUBLISHED. Needs Mason's yes.
+Platform: GitHub, a public repository (suggested name: luvaminos/lot-test-results) under a Luvaminos org or Mason's account.
+Targets: "peptide COA dataset", "peptide lot test results csv", "verify peptide COA", "Freedom Diagnostics accession lookup", "research peptide HPLC purity data".
+Links: /coa (library) and each /coa/<lot>; the lab's lookup and PDF URLs. No store or price links. UTM not used (GitHub links are nofollow and the rows are data).
+Before publishing:
+- [ ] Re-pull every row from /sitemap.xml and /coa/<lot> on the day (never TES, RT, TRZ or SM lots).
+- [ ] Add LICENSE file with the CC BY 4.0 legal code (https://creativecommons.org/licenses/by/4.0/legalcode.txt).
+- [ ] Delete this comment block before publishing.
+-->
+
 # Luvaminos lot test results
 
 *Published by Luvaminos, a US research peptide supplier. This is a first-party dataset about our own products, not an independent source.*
@@ -5,7 +16,7 @@
 One row per lot: the laboratory's identity and purity results, the lab's accession number, and the links you need to check every row with the lab yourself.
 
 - **Data file:** [`lots-public.csv`](lots-public.csv) (UTF-8, comma-separated, one header row)
-- **Rows:** 27 lots, read from the pages at https://www.luvaminos.com/coa and the lab PDFs (latest rows on 2026-11-12). The full certificate library is on that page
+- **Rows:** 28 lots, read from the pages at https://www.luvaminos.com/coa and the lab PDFs (latest rows on 2026-11-16). The full certificate library is on that page
 - **Laboratory:** Freedom Diagnostics Testing, PLLC, Franklin, Tennessee. The lab is not owned by or affiliated with Luvaminos.
 - **Licence:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reuse it, including commercially, with attribution: "Luvaminos lot test results, https://github.com/luvaminos/lot-test-results".
 
