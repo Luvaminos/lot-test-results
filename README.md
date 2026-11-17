@@ -1,14 +1,3 @@
-<!--
-DRAFT, NOT PUBLISHED. Needs Mason's yes.
-Platform: GitHub, a public repository (suggested name: luvaminos/lot-test-results) under a Luvaminos org or Mason's account.
-Targets: "peptide COA dataset", "peptide lot test results csv", "verify peptide COA", "Freedom Diagnostics accession lookup", "research peptide HPLC purity data".
-Links: /coa (library) and each /coa/<lot>; the lab's lookup and PDF URLs. No store or price links. UTM not used (GitHub links are nofollow and the rows are data).
-Before publishing:
-- [ ] Re-pull every row from /sitemap.xml and /coa/<lot> on the day (never TES, RT, TRZ or SM lots).
-- [ ] Add LICENSE file with the CC BY 4.0 legal code (https://creativecommons.org/licenses/by/4.0/legalcode.txt).
-- [ ] Delete this comment block before publishing.
--->
-
 # Luvaminos lot test results
 
 *Published by Luvaminos, a US research peptide supplier. This is a first-party dataset about our own products, not an independent source.*
@@ -24,7 +13,7 @@ One row per lot: the laboratory's identity and purity results, the lab's accessi
 
 This is **published by Luvaminos, not an independent source.** We sell every product in this file. The numbers in it come from an outside laboratory, and each row can be checked against the lab's own copy of the report, which is the point of publishing the accession numbers. If a row here ever disagrees with the lab's copy, the lab's copy is right and this file is wrong; please open an issue.
 
-The file covers lots sold under their compound names. Lots of products we sell under coded names are not included.
+The file covers only lots of products we sell under their compound names. We also sell products under coded names; their lots are not in this file, so the row count is lower than the number of lot pages at https://www.luvaminos.com/coa.
 
 ## Columns
 
